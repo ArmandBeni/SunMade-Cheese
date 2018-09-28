@@ -1,0 +1,82 @@
+@import url('https://fonts.googleapis.com/css?family=Lato');
+$fontcolor : white;
+$widthmax : 100%;
+$heightmax : 100%;
+
+html {
+  width: $widthmax;
+  height: $heightmax;
+}
+
+  body {
+    width: $widthmax;
+    height: $heightmax;
+    margin: 0;
+    padding: 0;
+  }
+
+    #home-top.illustration {
+      height: $heightmax;
+      background-image: url(../images/chees.jpg);
+      zoom: 0.8;
+      overflow: hidden;
+    }
+
+      .dont-move {
+        font-family: "Lato";
+        font-weight: 900;
+        color: $fontcolor;
+        font-size: 6.25rem;
+        text-align: center;
+        width: 50%;
+        margin-left: auto;
+        margin-right: auto;
+        margin-top: 15%;
+      }
+
+
+        .nav{
+          font-family: "Lato";
+          font-size: 3.125rem;
+          width: 40%;
+          margin-left: auto;
+          margin-right: auto;
+          position: relative;
+          z-index: 10;
+
+          ul {
+            list-style: none;
+            display: flex;
+            flex-direction: row;
+            justify-content: space-around;
+
+            a {
+              text-decoration: none;
+              text-align: center;
+              color: $fontcolor;
+              border: solid 0.3125rem $fontcolor;
+              display: block;
+              width: 15.625rem;
+              padding: 1.875rem;
+              z-index: 10;
+            }
+          }
+        }
+
+              .presentation{
+                width: $widthmax;
+                position: fixed;
+                top: 0;
+                left: 0;
+                overflow: hidden;
+              }
+
+                #presentation{
+                  display: none;
+                  z-index: -1;
+                }
+
+                  #project{
+                    display: none;
+                    z-index: -1;
+                  }
