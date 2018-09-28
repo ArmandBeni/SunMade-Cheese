@@ -1,0 +1,204 @@
+@import url("https://fonts.googleapis.com/css?family=Lato");
+body {
+  margin: 0;
+  font-family: "Lato";
+  background-image: url("../images/background.png");
+  background-repeat: no-repeat;
+  background-size: cover; }
+
+header div.nav {
+  width: 100%;
+  position: absolute;
+  display: flex;
+  flex-direction: row;
+  z-index: 1; }
+  header div.nav ul {
+    width: 50%;
+    margin-right: 5%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between; }
+    header div.nav ul li {
+      list-style: none;
+      display: flex; }
+      header div.nav ul li :hover {
+        border-bottom: 0.0625rem solid white;
+        transition: border-bottom 0.5s ease-in; }
+      header div.nav ul li a {
+        color: white;
+        font-weight: 300;
+        font-size: 1rem;
+        text-decoration: none; }
+
+header img {
+  width: 100%;
+  height: auto;
+  overflow: hidden;
+  position: relative; }
+
+header .bg-image {
+  width: 100%;
+  height: 100vh; }
+
+header div.title {
+  margin-top: 15%;
+  margin-left: 5%;
+  color: white;
+  position: absolute;
+  z-index: 1; }
+  header div.title h1 {
+    margin: 0;
+    font-weight: 900;
+    font-size: 6.25rem; }
+  header div.title p {
+    font-weight: 400;
+    font-size: 4.375rem;
+    margin-top: 0rem; }
+
+main {
+  color: #3B3B3B;
+  margin-left: 10%;
+  margin-right: 10%; }
+  main article h2 {
+    font-weight: 900;
+    font-size: 3.75rem;
+    margin-bottom: -1.375rem; }
+  main article div.underline {
+    height: 1.25rem;
+    width: 31.25rem;
+    background-color: #F4D877;
+    margin-bottom: 10%; }
+  main article strong {
+    font-weight: 400; }
+  main article div.row {
+    width: 100%;
+    margin-bottom: 10%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between; }
+    main article div.row p {
+      width: 40%;
+      margin-top: 0;
+      font-weight: 300;
+      font-size: 1.5625rem; }
+    main article div.row img {
+      width: 45%;
+      height: 80%;
+      opacity: 0; }
+  main article div.reverse {
+    width: 100%;
+    margin-bottom: 10%; }
+    main article div.reverse p {
+      width: 40%;
+      margin-top: 0;
+      margin-right: 5%;
+      font-weight: 300;
+      font-size: 1.5625rem;
+      float: right; }
+    main article div.reverse img {
+      width: 45%;
+      height: 80%; }
+  main #video {
+    width: 100%;
+    height: 100vh; }
+
+.separation {
+  border-top: 0.125rem solid black;
+  width: 80%;
+  height: 5%;
+  margin: 0 auto; }
+
+.teamProject {
+  width: 100%;
+  height: 100%; }
+  .teamProject p {
+    font-size: 3em;
+    font-family: sans-serif;
+    width: 30%;
+    margin: 5% auto; }
+  .teamProject img {
+    width: 70%;
+    height: 50%;
+    margin-bottom: 5%;
+    margin-left: 15%;
+    display: inline-block; }
+
+    #animation-scroll{
+      position: fixed;
+      bottom: -100px;
+      right: 0%;
+      height: 10%;
+      width: 300px;
+      z-index: 20;
+      overflow: hidden;
+    }
+
+    #animation-scroll img {
+      position: absolute;
+      right: 120%;
+      bottom:30%;
+      width: 80%;
+      height: auto;
+    }
+
+    #animation-scroll_link{
+      position: absolute;
+      right: 3%;
+      bottom:10%;
+      background-color: #034752;
+      border-radius: 30px;
+      height: 50%;
+      width: 210px;
+      font-size: 1.1em;
+      padding-top: 3.2%;
+      overflow: hidden;
+      transition: all 1s ease-in-out;
+
+    }
+    #animation-scroll_link:hover{
+      transition: all 1s ease-in-out;
+
+      background-color: #FFFFFF;
+    }
+    #animation-scroll_link:hover .linkKick{
+      transition: all 1s ease-in-out;
+      overflow: hidden;
+      right: -100%;
+    }
+    #animation-scroll_link:hover img{
+      transition: all 1s ease;
+      transition-delay: 0.5s;
+      right: 10%;
+    }
+
+    #animation-scroll_link .linkKick{
+      position: absolute;
+      right:9%;
+      color: #FFFFFF;
+      text-decoration: none;
+      font-weight:900;
+      font-family: sans-serif;
+      transition: all 1s ease-in-out;
+      margin: 0;
+    }
+
+footer {
+  background-color: #3B3B3B;
+  color: white;
+  text-align: center;
+  height: 6.25rem;
+  padding: 1.5625rem;
+  display: flex;
+  flex-direction: column; }
+  footer a {
+    text-decoration: none;
+    color: white; }
+  footer > a {
+    margin-bottom: 2.5rem;
+    font-weight: 300; }
+  footer div {
+    display: flex;
+    flex-direction: column;
+    font-weight: lighter; }
+
+/*# sourceMappingURL=aboutus.css.map */
